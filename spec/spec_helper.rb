@@ -5,6 +5,11 @@ require 'rack/test'
 require 'capybara/rspec'
 require 'capybara/dsl'
 
+require 'capybara'
+require 'capybara/dsl'
+require 'capybara/rspec'
+
+
 
 RSpec.configure do |config|
   config.include Capybara::DSL
