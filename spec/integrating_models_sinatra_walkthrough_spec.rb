@@ -1,3 +1,7 @@
+require 'capybara'
+require 'capybara/dsl'
+require 'capybara/rspec'
+
 describe App do
 
   describe 'GET /' do
